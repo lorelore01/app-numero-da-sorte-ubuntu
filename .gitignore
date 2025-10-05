@@ -1,0 +1,29 @@
+# Visual Studio / .NET Core specific
+.vs/
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+[Ll]ogs/
+
+# Rider files
+.idea/
+
+# Other
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.opendb
+*~
+*.*proj.user
