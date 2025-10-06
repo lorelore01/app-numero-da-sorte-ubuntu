@@ -4,26 +4,28 @@
              x:Class="AppNumeroDaSorte.MainPage"
              Title="MainPage"
              BackgroundColor="Green">
-    <VerticalStackLayout>
-        <Image Source="logo_green.png" WidthRequest="74" HeightRequest="115" />
-        <Label 
-            IsVisible="false"
-            Margin="0, 20, 0, 120"
-            Text="Número da sorte!"
-            TextColor="#00AB37"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-            <Label Text="O número da sorte é:" HorizontalOptions="Center" />
-            <Label Text="Boa sorte!:" HorizontalOptions="Center" Margin="0, 20, 0, 0"/>
-            <HorizontalStackLayout>
-                
-                <Label Text="01"/>
-                <Label Text="01"/>
-                <Label Text="01"/>
-                <Label Text="01"/>
-                <Label Text="01"/>
-                <Label Text="01"/>
-            </HorizontalStackLayout>
-        <Button Text="Gerar número da sorte" HorizontalOptions="Center" Margin="0, 0, 0, 50" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image Source="logo_green.png" WidthRequest="74" HeightRequest="115" />
+            <Label 
+                IsVisible="false"
+                Margin="0, 20, 0, 120"
+                Text="Número da sorte!"
+                TextColor="#00AB37"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+                <Label Text="O número da sorte é:" HorizontalOptions="Center" />
+                <Label Text="Boa sorte!:" HorizontalOptions="Center" Margin="0, 20, 0, 0"/>
+                <HorizontalStackLayout Spacing="20" HorizontalOptions="Center" Margin="0, 70">
+                    
+                    <Label FontSize="24" Text="01"/>
+                    <Label FontSize="24" Text="01"/>
+                    <Label FontSize="24" Text="01"/>
+                    <Label FontSize="24" Text="01"/>
+                    <Label FontSize="24" Text="01"/>
+                    <Label FontSize="24" Text="01" TextColor="#00AB37"/>
+                </HorizontalStackLayout>
+            <Button Text="Gerar número da sorte" HorizontalOptions="Center" Margin="0, 0, 0, 50" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
